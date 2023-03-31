@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Roboto&display=swap" rel="stylesheet">
+  <title>Modulo 9 jQuery</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Galeria de Fotos</h1>
+    <button type="button">Nova imagem +</button>
+  </header>
+
+  <form action="">
+    <h2>Inserir nova imagem</h2>
+    <input type="url" id="endImagem_nova" required placeholder="URL da imagem">
+    <button type="submit">Adicionar</button>
+    <button id="btnCancelar" type="reset">Cancelar</button>
+  </form>
+
+  <ul>
+    <li>
+      <img src="images/1.jpg" alt="Foto de guitarrista">
+      <DIV class="overlayImagem_link">
+        <a href="images/1.jpg" title="Ver imagem em tamanho real" target="_blank">
+          Ver imagem em tamanho real
+        </a>
+      </div>
+    </li>
+    <li>
+      <img src="images/2.jpg" alt="Foto show de rock">
+      <DIV class="overlayImagem_link">
+        <a href="images/2.jpg" title="Ver imagem em tamanho real" target="_blank">
+          Ver imagem em tamanho real
+        </a>
+      </div>
+    </li>
+    <li>
+      <img src="images/3.jpg" alt="Foto de show de rock">
+      <DIV class="overlayImagem_link">
+        <a href="images/3.jpg" title="Ver imagem em tamanho real" target="_blank">
+          Ver imagem em tamanho real
+        </a>
+      </div>
+    </li>
+    <li>
+      <img src="images/4.jpg" alt="Foto de guitarrista e vocal">
+      <DIV class="overlayImagem_link">
+        <a href="images/4.jpg" title="Ver imagem em tamanho real" target="_blank">
+          Ver imagem em tamanho real
+        </a>
+      </div>
+    </li>
+  </ul>
+
+  
+<script src="js/jquery-3.6.4.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
